@@ -16,16 +16,16 @@ public class PracticeTest6 {
 
 		switch(fortune) {
 		case 1:
-			System.out.println("fortuneが１なら”吉です”");
+			System.out.println("吉です");
 		break;
 		case 2:
-			System.out.println("fortuneが2なら”中吉です”");
+			System.out.println("中吉です");
 		break;
 		case 3:
-			System.out.println("fortuneが3なら”中吉です”");
+			System.out.println("中吉です");
 		break;
 		default:
-			System.out.println("それ以外の数値は”凶です”");
+			System.out.println("凶です");
 		}
 
 		//練習問題②
@@ -33,7 +33,9 @@ public class PracticeTest6 {
 		j=0;
 
 		for(int i =1; i<=100; i++) {
-			if((i%7)==0)j += i;
+			if((i%7)==0) {
+				j += i;
+			}
 		}
 		System.out.println(j);
 

@@ -19,9 +19,9 @@ public class PracticeTest2 {
 		System.out.println(name);
 
 		//練習問題④
-		String syugo = "この商品の値段は";
-		String jutugo = "円です";
-		System.out.println(syugo + price + jutugo);
+		String strWord = "この商品の値段は";
+		String endWord = "円です";
+		System.out.println(strWord + price + endWord);
 
 
 	}
